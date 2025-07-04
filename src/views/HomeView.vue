@@ -9,8 +9,8 @@
       >
         <h1 class="display-4 fw-bold">Welcome to Master Machinery</h1>
         <p class="lead">
-          Custom Machining & Hydraulic Repair Serving Princeton, WV with 28+
-          Years of Precision & Reliability.
+          Custom Machining & Hydraulic Repair Serving Bluefield and Princeton,
+          WV with 28+ Years of Precision & Reliability.
         </p>
       </div>
     </div>
@@ -19,14 +19,13 @@
     <div class="container mt-5">
       <h2>Why Choose Us?</h2>
       <p>
-        Master Machinery is your trusted source for custom machining and expert
-        repair of hydraulic equipment in Princeton, WV. With over 28 years of
-        hands-on experience, we deliver precision-crafted parts and dependable
-        repair solutions tailored to your exact needs. Whether it’s rebuilding
-        cylinders, repairing hydraulic pumps, or fabricating components to spec,
-        we combine craftsmanship with quality service to keep your equipment
-        running strong. Serving local industries with pride, reliability, and
-        the skill only decades of experience can offer.
+        With over 28 years of experience, Master Machinery delivers expert
+        machining and reliable repair services you can count on. From rebuilding
+        hydraulic cylinders to custom fabrication, we tackle the tough jobs with
+        precision and pride. Locally owned and operated by Willie Worley, we
+        serve the Bluefield and Princeton, WV area with honest work, fast
+        turnaround times, and a commitment to keeping your equipment running
+        strong.
       </p>
     </div>
   </div>
