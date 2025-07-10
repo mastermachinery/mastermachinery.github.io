@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Master Machinery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/darkly/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <style>
+    .gallery-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    .gallery-image {
+      width: 100%;
+      height: 70vh;
+      object-fit: contain;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary my-0 py-0">
+    <div class="container py-0 my-0">
+      <a class="navbar-brand" href="index.html">
+        <img
+            src="assets/img/logo.png"
+            alt="Master Machinery Logo"
+            height="85"
+            class="me-0 py-0 my-0"
+          />
+        
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Content -->
+  <div class="container mt-5">
+    <h1>About Us</h1>
+    <p>
+      At Master Machinery, we specialize in precision machining, heavy equipment
+      repair, and custom fabrication for customers in Bluefield and Princeton,
+      WV. Founded and operated by Willie Worley, our shop brings over 28 years
+      of hands-on experience to every job—whether it's rebuilding hydraulic
+      cylinders, repairing pumps, or fabricating components to exact
+      specifications. We take pride in our craftsmanship, fast turnaround, and
+      commitment to keeping your equipment running at peak performance. Whether
+      you're a contractor, farmer, or industrial operator, Master Machinery is
+      your trusted partner for reliable repairs and custom solutions. Let us put
+      our experience to work for you.
+    </p>
+    <p>
+      <a href="contact.html">Contact us</a> today for a quote!
+    </p>
+  </div>
+
+  <!-- Swiper Slideshow -->
+  <div class="gallery-container">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- Add your images here -->
+        <div class="swiper-slide"><img src="gallery/IMG_1109.jpg" alt="Photo 1" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1118.jpg" alt="Photo 2" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1119.jpg" alt="Photo 3" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1146.JPG" alt="Photo 4" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1156.jpg" alt="Photo 5" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1157.jpg" alt="Photo 6" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1307.jpg" alt="Photo 7" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1589.jpg" alt="Photo 8" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1846.jpg" alt="Photo 9" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1866.jpg" alt="Photo 10" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1876.jpg" alt="Photo 11" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_1877.jpg" alt="Photo 12" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_2939.JPG" alt="Photo 13" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/IMG_2945.jpg" alt="Photo 14" class="gallery-image" /></div>
+        <div class="swiper-slide"><img src="gallery/77318849056__E679FCDC-D650-48D0-AF6E-BBDD275A3B3E.jpg" alt="Photo 15" class="gallery-image" /></div>
+      </div>
+      <!-- Add Pagination and Navigation -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-primary p-4 mt-5">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+        >
+          <!-- Left: Address and Phone -->
+          <div class="text-center text-md-start mb-2 mb-md-0">
+            <p class="mb-0">
+              260 Autumn Lane, Princeton, WV 24739<br />
+              (304) 922-6523
+            </p>
+          </div>
+
+          <!-- Right: Copyright -->
+          <div class="text-center text-md-end">
+            <!-- This version shows only on md+ screens -->
+            <p class="mb-0 d-none d-md-block">
+              &copy; 2025 Master Machinery. All rights reserved.
+            </p>
+            <!-- This version shows only on small screens -->
+            <p class="mb-0 d-block d-md-none">&copy; 2025 Master Machinery</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true, // optional but useful
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+  </script>
+</body>
+</html>
