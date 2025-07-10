@@ -43,8 +43,30 @@
       <router-view />
     </main>
 
-    <footer class="bg-light text-center p-4 mt-5">
-      <p class="mb-0">&copy; 2025 Master Machinery. All rights reserved.</p>
+    <footer class="bg-primary p-4 mt-5">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+        >
+          <!-- Left: Address and Phone -->
+          <div class="text-center text-md-start mb-2 mb-md-0">
+            <p class="mb-0">
+              260 Autumn Lane, Princeton, WV 24739<br />
+              (304) 922-6523
+            </p>
+          </div>
+
+          <!-- Right: Copyright -->
+          <div class="text-center text-md-end">
+            <!-- This version shows only on md+ screens -->
+            <p class="mb-0 d-none d-md-block">
+              &copy; 2025 Master Machinery. All rights reserved.
+            </p>
+            <!-- This version shows only on small screens -->
+            <p class="mb-0 d-block d-md-none">&copy; 2025 Master Machinery</p>
+          </div>
+        </div>
+      </div>
     </footer>
   </div>
 </template>

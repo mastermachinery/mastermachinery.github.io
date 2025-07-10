@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import ContactView from "../views/ContactView.vue";
+import NotFoundView from "@/views/NotFoundView.vue";
 
 const routes = [
   {
@@ -22,6 +23,8 @@ const routes = [
     component: ContactView,
     meta: { title: "Contact Master Machinery" },
   },
+  // 👇 catch-all fallback
+  { path: "/:pathMatch(.*)*", name: "NotFound", component: NotFoundView },
 ];
 
 const router = createRouter({

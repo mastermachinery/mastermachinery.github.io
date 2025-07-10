@@ -50,7 +50,7 @@ const photos = [
   "IMG_1109.jpg",
   "IMG_1118.jpg",
   "IMG_1119.jpg",
-  "IMG_1146.jpg",
+  "IMG_1146.JPG",
   "IMG_1156.jpg",
   "IMG_1157.jpg",
   "IMG_1307.jpg",
@@ -59,7 +59,7 @@ const photos = [
   "IMG_1866.jpg",
   "IMG_1876.jpg",
   "IMG_1877.jpg",
-  "IMG_2939.jpg",
+  "IMG_2939.JPG",
   "IMG_2945.jpg",
   "77318849056__E679FCDC-D650-48D0-AF6E-BBDD275A3B3E.jpg",
   // Add more as needed
